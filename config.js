@@ -16,10 +16,10 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://Internetguru:@Tesko1234@cluster0.zea94.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "WEST AFRICAN TIME";
-global.github=process.env.GITHUB|| "https://github.com/GlobalTechInfo/SUHAIL-XMD";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nigeria";
+global.github=process.env.GITHUB|| "null";
+global.gurl  =process.env.GURL  || "null";
+global.website=process.env.GURL || "null" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/TgwRyHR/Ephoto360-com-166de101e03cd7.jpg" || "https://i.ibb.co/bH1kbX0/a4c0b1af253197d4837ff6760d5b81c0.jpg" ; // SET LOGO FOR IMAGE 
 global.caption = process.env.CAPTION || global.caption || "©Tesko" 
 
